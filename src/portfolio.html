@@ -50,37 +50,9 @@
             <!-- Middle -->
 
             <a class="navbar-item" href="index.html">
-                Home
+                <i class="fa-solid fa-angle-left"></i>
+                &nbsp Go Back
             </a>
-
-            <a class="navbar-item">
-                Services
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                    More
-                </a>
-
-                <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                        About
-                    </a>
-                    <a class="navbar-item">
-                        Jobs
-                    </a>
-                    <a class="navbar-item">
-                        Contact
-                    </a>
-                    <a class="navbar-item">
-                        Feedback
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="https://github.com/ds-dotsoft" target="_blank">
-                        GitHub
-                    </a>
-                </div>
-            </div>
 
             <!-- End -->
             <div class="navbar-end">
@@ -99,43 +71,50 @@
     </nav>
 
     <!-- Header -->
-
-    <section class="section is-large level">
-        <div class="level-item">
-            <div>
-                <span class="tag is-primary">
-                    DotSoft
-                </span>
-                <br><br>
-                <h1 class="title" style="font-size: 50px;">
-                    A small business is <br>
-                    only as good as its <br>
-                    presentation.
-                </h1>
-                <br>
-                <h2 class="subtitle">
-                    We're different. In DotSoft we do our best <br>
-                    to provide every service you might need <br>
-                    in one place. We got you covered!
-                </h2>
-                <br>
-                <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Get started!</strong>
-                    </a>
-                    <a class="button is-light" href="portfolio.html">
-                        Portfolio
-                    </a>
+    <section class="section is-medium">
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child notification is-primary">
+                            <p class="title">Showcase...</p>
+                            <p class="subtitle">Top tile</p>
+                        </article>
+                        <article class="tile is-child notification is-warning">
+                            <p class="title">...Showcase</p>
+                            <p class="subtitle">Bottom tile</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-info">
+                            <p class="title">Middle Showcase</p>
+                            <p class="subtitle">With an image</p>
+                            <figure class="image is-4by3">
+                                <img class="round-edges" src="assets/img/header.jpg">
+                            </figure>
+                        </article>
+                    </div>
                 </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="level-item">
-            <div>
-                <figure class="header-image">
-                    <img class="round-edges" src="./assets/img/image.jpg">
-                </figure>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-danger">
+                        <p class="title">Wide Showcase</p>
+                        <p class="subtitle">Aligned with the right tile</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </article>
+                </div>
+             </div>
+            <div class="tile is-parent">
+                <article class="tile is-child notification is-success">
+                    <div class="content">
+                        <p class="title">Tall Showcase</p>
+                        <p class="subtitle">With even more content</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
