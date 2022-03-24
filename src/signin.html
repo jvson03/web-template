@@ -15,7 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>DotSoft | Home</title>
+    <title>DotSoft | Welcome</title>
 </head>
 
 <body>
@@ -50,46 +50,18 @@
             <!-- Middle -->
 
             <a class="navbar-item" href="index.html">
-                Home
+                <i class="fa-solid fa-angle-left"></i>
+                &nbsp Go Back
             </a>
-
-            <a class="navbar-item" href="services.html">
-                Services
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                    More
-                </a>
-
-                <div class="navbar-dropdown">
-                    <a class="navbar-item" href="about.html">
-                        About
-                    </a>
-                    <a class="navbar-item" href="jobs.html">
-                        Jobs
-                    </a>
-                    <a class="navbar-item">
-                        Contact
-                    </a>
-                    <a class="navbar-item">
-                        Feedback
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="https://github.com/ds-dotsoft" target="_blank">
-                        GitHub
-                    </a>
-                </div>
-            </div>
 
             <!-- End -->
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-primary" href="signin.html">
+                        <a class="button is-primary">
                             <strong>Sign up</strong>
                         </a>
-                        <a class="button is-light" href="signin.html">
+                        <a class="button is-light">
                             Log in
                         </a>
                     </div>
@@ -99,42 +71,63 @@
     </nav>
 
     <!-- Header -->
-
     <section class="section is-large level">
         <div class="level-item">
             <div>
                 <span class="tag is-primary">
-                    DotSoft
+                    Log in
                 </span>
                 <br><br>
-                <h1 class="title" style="font-size: 50px;">
-                    A small business is <br>
-                    only as good as its <br>
-                    presentation.
-                </h1>
-                <br>
-                <h2 class="subtitle">
-                    We're different. In DotSoft we do our best <br>
-                    to provide every service you might need <br>
-                    in one place. We got you covered!
-                </h2>
-                <br>
-                <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Get started!</strong>
-                    </a>
-                    <a class="button is-light" href="services.html">
-                        Services
-                    </a>
-                </div>
+                <form class="box">
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input class="input" type="email" placeholder="e.g. alex@example.com">
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control">
+                      <input class="input" type="password" placeholder="********">
+                    </div>
+                  </div>
+
+                  <button class="button is-primary">Log in</button>
+                </form>
             </div>
         </div>
 
         <div class="level-item">
             <div>
-                <figure class="header-image">
-                    <img class="round-edges" src="./assets/img/image.jpg">
-                </figure>
+                <span class="tag is-primary">
+                    Sign up
+                </span>
+                <br><br>
+                <form class="box">
+                    <div class="field">
+                      <label class="label">Name</label>
+                      <div class="control">
+                        <input class="input" type="email" placeholder="e.g. John Doe">
+                      </div>
+                    </div>
+
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input class="input" type="email" placeholder="e.g. alex@example.com">
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control">
+                      <input class="input" type="password" placeholder="********">
+                    </div>
+                  </div>
+
+                  <button class="button is-primary">Sign up</button>
+                </form>
             </div>
         </div>
     </section>
