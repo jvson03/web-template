@@ -3,7 +3,7 @@
 
 ## Website Template #1
 
-Website templates that I'm making to "show off" my skills. Feel free to use and modify them to your liking.
+Website templates that I'm making to test my skills. Feel free to use and modify them to your liking.
 
 
 ## Authors
